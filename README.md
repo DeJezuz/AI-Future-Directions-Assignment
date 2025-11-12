@@ -6,7 +6,7 @@ This repository contains the required deliverables for the "AI Future Directions
 ---
 
 ## 2. Part 1: Theoretical Analysis (Q1 & Q2)
-* **Full Answers:** Detailed essays for Q1 (Edge AI) and Q2 (Quantum AI) are contained in **`Theoretical_Analysis.pdf`**.
+* **Full Answers:** Detailed essays for Q1 (Edge AI) and Q2 (Quantum AI) are contained in **`Theoretical_Analysis.md`**.
 
 ---
 
