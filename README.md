@@ -4,7 +4,7 @@
 
 ## Part 1: Theoretical Analysis Summary
 
-* **(Note:** The full answers to Q1 and Q2 are provided in the `Theoretical_Analysis.pdf` file.)
+* **(Note:** The full answers to Q1 and Q2 are provided in the `Theoretical_Analysis.md` file.)
 * **Key takeaway from Q1 (Edge AI):** [Brief summary of your latency/privacy points.]
 * **Key takeaway from Q2 (Quantum AI):** [Brief summary of Quantum AI’s benefits in optimization.]
 
