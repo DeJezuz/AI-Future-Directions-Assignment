@@ -1,0 +1,33 @@
+flowchart LR
+    subgraph Field
+    S1[Soil moisture sensor]
+    S2[Temp/humidity sensor]
+    S3[Light PAR sensor]
+    S4[pH/EC probe]
+    S5[Weather station]
+    S6[NDVI camera (optional)]
+    end
+
+    GW[Edge gateway (Raspberry Pi)]
+    BUF[Local buffer & feature extraction]
+    CTRL[On-device control (irrigation rules)]
+    CLD[(Cloud storage & model registry)]
+    FEAT[Feature engineering & ETL]
+    ML[Model training (GBDT/LSTM)]
+    API[Inference API]
+    DASH[Farmer dashboard]
+
+    S1 --> GW
+    S2 --> GW
+    S3 --> GW
+    S4 --> GW
+    S5 --> GW
+    S6 --> GW
+
+    GW --> BUF
+    BUF --> CTRL
+    BUF --> CLD
+    CLD --> FEAT --> ML --> API
+    GW <-- API
+    GW --> DASH
+    CTRL -->|Actuators| Field
